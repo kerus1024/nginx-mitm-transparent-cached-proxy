@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=KR
+ST=Seoul
+L=Seoul-si
+O=Bluehouse
+OU=NCache Inc
+emailAddress=ncache@ncache.localhost
+CN=NCache Inc
